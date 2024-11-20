@@ -7,19 +7,19 @@ const testimonials = [
   {
     name: "Sarah Wilson",
     role: "UX Designer",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.",
+    text: "Lorem ipsum dolor sit amet consectetur adipiscing elit Suspendisse varius enim in eros elementum tristique Duis cursus mi quis viverra ornare",
     image: "/Team3.png",
   },
   {
     name: "John Smith",
     role: "Web Developer",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.",
+    text: "Lorem ipsum dolor sit amet consectetur adipiscing elit Suspendisse varius enim in eros elementum tristique. Duis cursus mi quis viverra ornare",
     image: "/Team1.png",
   },
   {
     name: "Emily Brown",
     role: "Marketing Manager",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.",
+    text: "Lorem ipsum dolor sit amet consectetur adipiscing elit Suspendisse varius enim in eros elementum tristique. Duis cursus mi quis viverra ornare",
     image: "/Team6.png",
   },
 ]
@@ -31,7 +31,7 @@ export default function Testimonials() {
         <div className="mb-12">
           <h2 className="text-3xl font-bold mb-4">Customer testimonials</h2>
           <p className="text-muted-foreground">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
           </p>
         </div>
 
@@ -50,7 +50,7 @@ export default function Testimonials() {
                   </div>
                   
                   <p className="text-muted-foreground flex-grow">
-                    "{testimonial.text}"
+                   `{testimonial.text}`
                   </p>
                   
                   <div className="flex items-center gap-3 mt-6">
