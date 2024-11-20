@@ -9,7 +9,6 @@ const courses = [
     description: "Learn advanced concepts in user experience and interface design",
     price: "499",
     image: "/Blog1.png?height=200&width=300",
-    tag: { text: "Featured", color: "#22c55e" }
   },
   {
     id: 2,
@@ -17,7 +16,6 @@ const courses = [
     description: "Master the basics of Python programming language",
     price: "399",
     image: "/Blog2.png?height=200&width=300",
-    tag: { text: "Popular", color: "#ec4899" }
   },
   {
     id: 3,
