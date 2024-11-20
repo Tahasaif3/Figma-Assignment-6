@@ -1,50 +1,54 @@
 # Online Learning Website - Responsive UI 🌐
 
-This project is a **responsive online learning platform UI**, developed based on a custom **Figma design**. The goal of the project is to provide a seamless user experience for users to explore courses, get started with learning, and build their skills online.
+This project is a **responsive online learning platform UI**, developed based on a custom **Figma design**. The goal of the project is to provide a seamless user experience for exploring courses, getting started with learning, and building skills online.
 
 ## ✨ Features
 - **Hero Section**:
   - Clear and engaging headline: *"Learn new skills online with ease."*
-  - Subheadline: Explains the benefits of the platform.
+  - Subheadline explaining the benefits of the platform.
   - Primary and secondary call-to-action buttons: `Start Learn` and `Explore Courses`.
-  - Hero image of a student to add a personal touch.
+  - Hero image of a student adds a personal, welcoming touch.
 
 - **Trusted by Companies**:
   - Logos of well-known companies showcasing trust and credibility.
 
 - **Responsive Design**:
-  - Ensures the website looks great on desktops, tablets, and mobile devices.
+  - Ensures the website is optimized for desktops, tablets, and mobile devices.
+
+- **Modular Components**:
+  - Organized into reusable components for easier scalability.
 
 ## 📂 File Structure
 ```
-├──app
-|───|──Layout.tsx.tsx      # Main Layout of website
-│   ├── page.tsx           # Main landing page
-|── |── globals.css        # Tailwind css styling
-|
+├── app
+│   ├── Layout.tsx          # Main layout of the website
+│   ├── page.tsx            # Main landing page
+│   ├── globals.css         # Tailwind CSS styling
+│
 ├── components
 │   ├── Header.tsx          # Navigation bar with login/signup
-│   ├── Hero.tsx     # Hero section with headline, buttons, and image
-│   ├── CourseCategories.tsx. # Trusted by companies section
-|   |── Achievements.tsx  # Achievements of comapany section
-|   |── Courses.tsx  # Courses section
-|   |── Team.tsx    # Teams Sections
-|   |── Testimonials.tsx  # Testimonials section (reviews of company)
-|   |── Newsletter.tsx #  Newsletter section
-|   |── Footer.tsx  # Footer section  
-|
-├── components/ui folder
-│   ├── button.tsx          # Navigation bar with login/signup
-│   ├── card.tsx     # Hero section with headline, buttons, and image
-│   ├── avatar.tsx. # Trusted by companies section
-|   |── input.tsx  # Achievements of comapany section
-|
-├── public                 #Images Folder 
-│ 
+│   ├── Hero.tsx            # Hero section with headline, buttons, and image
+│   ├── CourseCategories.tsx # Course categories section
+│   ├── Achievements.tsx    # Achievements section
+│   ├── Courses.tsx         # Courses section
+│   ├── Team.tsx            # Team section
+│   ├── Testimonials.tsx    # Testimonials (reviews) section
+│   ├── Newsletter.tsx      # Newsletter subscription section
+│   ├── Footer.tsx          # Footer section
+│
+├── components/ui
+│   ├── Button.tsx          # Reusable button component
+│   ├── Card.tsx            # Card component
+│   ├── Avatar.tsx          # Avatar component
+│   ├── Input.tsx           # Input component
+│
+├── public                  # Images folder
+│
+```
 
 ## 🚀 Tech Stack
-- **Next.js**: Framework for server-rendered React apps.
-- **Tailwind CSS**: Utility-first CSS for fast and responsive styling.
+- **Next.js**: Framework for building fast, server-rendered React apps.
+- **Tailwind CSS**: Utility-first CSS framework for responsive design and styling.
 - **Figma**: Source of design inspiration.
 
 ## 💻 How to Run Locally
@@ -57,14 +61,15 @@ This project is a **responsive online learning platform UI**, developed based on
    ```bash
    npm install
    ```
-3. Run the development server:
+3. Start the development server:
    ```bash
    npm run dev
    ```
-4. Open [http://localhost:3000](http://localhost:3000) to view the app.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
 
 ## 🖼️ Figma Design
-Design inspiration for this project is taken from the provided **Figma file**. *(https://www.figma.com/design/f7Ydw99tYhb7zb1jt9Wbd1/Simple-U.I-Design?node-id=1-665&node-type=frame&t=7HPLIN9BRewgJFeJ-0)*
+This project is based on the provided **Figma design**:  
+[View Figma Design](https://www.figma.com/design/f7Ydw99tYhb7zb1jt9Wbd1/Simple-U.I-Design?node-id=1-665&node-type=frame&t=7HPLIN9BRewgJFeJ-0)
 
 ## 🤝 Contribution
-Feel free to fork this repository and submit PRs to improve the UI or add features!
+Contributions are welcome! Feel free to fork this repository, improve the UI, or add features. Submit a pull request, and I'll review it promptly.
