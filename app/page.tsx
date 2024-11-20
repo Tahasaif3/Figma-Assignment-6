@@ -3,7 +3,6 @@
 import { useState } from "react"
 import Header from "../components/Header"
 import Hero from "../components/Hero"
-import TrustedCompanies from "../components/TrustedCompanies"
 import CourseCategories from "../components/CourseCategories"
 import Achievements from "../components/Achievements"
 import Courses from "../components/Courses"
@@ -19,7 +18,6 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       <Header mobileMenuOpen={mobileMenuOpen} setMobileMenuOpen={setMobileMenuOpen} />
       <Hero />
-      <TrustedCompanies />
       <CourseCategories />
       <Achievements />
       <Courses />

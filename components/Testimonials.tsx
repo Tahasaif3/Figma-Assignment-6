@@ -75,6 +75,7 @@ export default function Testimonials() {
           </div>
 
           <div className="flex justify-between items-center">
+            {/* left side dots */}
             <div className="flex items-center gap-2">
               {[...Array(5)].map((_, i) => (
                 <button
@@ -82,11 +83,11 @@ export default function Testimonials() {
                   className={`w-2 h-2 rounded-full transition-colors ${
                     i === 0 ? "bg-black" : "bg-gray-200"
                   }`}
-                  aria-label={`Go to slide ${i + 1}`}
-                />
+                  />
               ))}
             </div>
-
+  
+             {/* left side navigation */}
             <div className="flex gap-2">
               <Button
                 variant="outline"
